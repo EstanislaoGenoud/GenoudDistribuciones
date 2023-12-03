@@ -1,0 +1,176 @@
+.container-header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 90vh;
+
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .capa {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+}
+
+.principal {
+    position: absolute;
+    top: 270px;
+    z-index: 10;
+    width: 75%;
+    text-align: center;
+    left: 270px;
+    color: #FFFFFF93;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+    gap: 16px;
+    font-size: 1.25rem;
+
+    .principal-dos {
+        position: absolute;
+        top: 135px;
+        z-index: 10px;
+        text-align: center;
+        color: #FFFFFF93;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px;
+        gap: 16px;
+        font-size: 1.25rem;
+    }
+
+    .principal-tres {
+        position: absolute;
+        top: 50px;
+        z-index: 10;
+        text-align: center;
+        color: #FFFFFF93;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px;
+        gap: 16px;
+        font-size: 1.25rem;
+    }
+}
+
+// aca van las grillas
+.seccion-grilla-index {
+    .grilla-index {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 350px;
+        .nosotros-grid {
+            h2 {
+                text-align: start;
+            }
+        }
+        .nuestra-mision-grid {
+            text-align: start;
+        }
+        
+    }
+}
+
+.box-per {
+    text-align: center;
+}
+.contenedor-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50vh;
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+    position: relative;
+
+    .box-per-uno,
+    .box-per-dos,
+    .box-per-tres {
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+    }
+}
+
+.texto-galeria {
+    text-align: center;
+    width: 100%;
+    height: 15vh;
+    margin: 20px;
+
+    .texto-dos {
+        padding: 15px;
+    }
+}
+
+.galeria-index {
+    display: flex;
+    width: 43vw;
+    position: relative;
+    left: 60vh;
+    overflow-x: scroll;
+    gap: 64px;
+    scrollbar-width: none;
+}
+
+.galeria-dos {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 80vh;
+
+    .capa-dos {
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .clientes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-evenly;
+        gap: 200px;
+        position: absolute;
+        top: 200px;
+        left: 10%;
+    }
+
+    .caja-uno,
+    .caja-dos,
+    .caja-tres {
+        font-weight: 600;
+        height: 150px;
+        width: 250px;
+        background-color: #FFFFFF1E;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid;
+        border-radius: 20px;
+    }
+}

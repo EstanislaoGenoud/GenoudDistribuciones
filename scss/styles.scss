@@ -5,3 +5,127 @@
 body {
     font-family: 'Istok Web', sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Istok Web', sans-serif;
+}
+@import "./partials/navbar";
+@import "./partials/index";
+
+// footer
+
+footer {
+    background-color: #222;
+    width: 100%;
+    height: 45vh;
+}
+.pie-pagina {
+    background-color: #222;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    color: #FDFDFD;
+}
+
+.navper-footer {
+    width: 100%;
+    height: 60px;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    .logo-contenedor-footer {
+        display: flex;
+        width: 30%;
+        align-items: center;
+        justify-content: start;
+
+        .logo-footer {
+            width: 40px;
+        }
+        span {
+            font-size: 1.8rem;
+            color: black;
+        }
+    }
+
+    .navegacion-navper-footer {
+        display: flex;
+        list-style: none;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+
+        .nave-item-footer {
+            padding: 10px;
+            font-size: 1.25rem;
+            
+            &:hover {
+                background-color: rgba(128, 128, 128, 0.411);
+                border-radius: 8px;
+            }
+            a {
+                color: black;
+            }
+        }
+    }
+}
+
+#check--menu-footer,
+.navper-footer label {
+    display: none;
+}
+
+.follow {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    right: 50px;
+    ul .link-item {
+        a {
+            color: #FDFDFD;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+
+            i.bx {
+                margin-right: 5px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+.credits {
+    border-top: 2px solid #F5F5F4;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .container--logo {
+        width: 20px;
+        transition: width .85s ease;
+        overflow: hidden;
+        &:hover {
+            width: 300px;
+        }
+        
+    }
+    span {
+        color:  #F5F5F4;
+    }
+}
+.texto-pdp {
+    text-align: center;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.329);
+}
