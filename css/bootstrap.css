@@ -5830,8 +5830,10 @@ textarea.form-control-lg {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
+  /* width: 100%; */
+  width: 65%;
   overflow: hidden;
+  align-content: center;
 }
 .carousel-inner::after {
   display: block;
@@ -5929,11 +5931,13 @@ textarea.form-control-lg {
 }
 
 .carousel-control-prev {
-  left: 0;
+  /* left: 0; */
+  left: 300px;
 }
 
 .carousel-control-next {
-  right: 0;
+  /* right: 0; */
+  right: 300px;
 }
 
 .carousel-control-prev-icon,
