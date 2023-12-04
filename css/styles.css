@@ -137,13 +137,23 @@ h6 {
   flex-direction: row;
   flex-wrap: wrap;
   width: 350px;
-  height: 350px;
+  height: 550px;
+  padding: 10px;
 }
-.seccion-grilla-index .grilla-index .nosotros-grid h2 {
-  text-align: start;
+.seccion-grilla-index .grilla-index .nosotros-grid {
+  text-align: center;
 }
 .seccion-grilla-index .grilla-index .nuestra-mision-grid {
-  text-align: start;
+  text-align: center;
+  position: relative;
+  left: 1040px;
+  bottom: 455px;
+}
+.seccion-grilla-index img {
+  height: 450px;
+  position: absolute;
+  left: 400px;
+  top: 740px;
 }
 
 .box-per {

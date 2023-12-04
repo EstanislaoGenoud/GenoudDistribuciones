@@ -71,16 +71,24 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 350px;
-    height: 350px;
+    height: 550px;
+    padding: 10px;
         .nosotros-grid {
-            h2 {
-                text-align: start;
-            }
+            text-align: center;
         }
         .nuestra-mision-grid {
-            text-align: start;
+            text-align: center;
+            position: relative;
+            left: 1040px;
+            bottom: 455px;
         }
         
+    }
+    img {
+        height: 450px;
+        position: absolute;
+        left: 400px;
+        top: 740px;
     }
 }
 
