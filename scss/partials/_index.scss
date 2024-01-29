@@ -65,21 +65,25 @@
 
 // aca van las grillas
 .seccion-grilla-index {
-    .grilla-index {
+    width: 100%;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 350px;
-    height: 550px;
-    padding: 10px;
+    // background-color: red;
+
+    .grilla-index {
+        width: 350px;
+        height: 550px;
+        padding: 10px;
+        position: relative;
         .nosotros-grid {
             text-align: center;
         }
         .nuestra-mision-grid {
             text-align: center;
             position: relative;
-            left: 1040px;
+            left: 130vh;
             bottom: 455px;
         }
         
