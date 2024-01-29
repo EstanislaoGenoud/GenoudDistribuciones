@@ -10,7 +10,7 @@
 
 body {
   font-family: "Istok Web", sans-serif;
-  width: 100%;
+  width: 98.58%;
 }
 
 h1,
@@ -132,7 +132,7 @@ h6 {
 }
 
 .seccion-grilla-index {
-  width: 100%;
+  width: 70%;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
@@ -150,7 +150,7 @@ h6 {
 .seccion-grilla-index .grilla-index .nuestra-mision-grid {
   text-align: center;
   position: relative;
-  left: 130vh;
+  left: 990px;
   bottom: 455px;
 }
 .seccion-grilla-index img {
